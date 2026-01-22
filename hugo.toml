@@ -1,0 +1,31 @@
+baseURL = 'https://localhost:1313/'
+theme = ["FixIt"]
+defaultContentLanguage = "en"
+languageCode = 'en-us'
+title = "Edward's Portfolio"
+hasCJKLanguage = true
+
+[params]
+  version = "0.4.X"
+  [params.home]
+    [params.home.profile]
+      enable = true
+      title = "Edward Xiong"
+      subtitle = "CS Graduate @ Seattle | ML & Full-stack"
+      typeit = true
+      social = true
+
+[params.social]
+  GitHub = "https://github.com/Edwardx258"
+  Linkedin = "https://www.linkedin.com/in/edwardx93/"
+  Email = "Edwardxiongyx@gmail.com"
+
+[params.page]
+  authorAvatar = false
+
+[menus]
+  [[menus.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 1
