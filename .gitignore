@@ -1,0 +1,23 @@
+# --- Hugo 自动生成的产物 (不需要上传) ---
+# 这些文件夹可以通过运行 'hugo' 命令随时生成
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# --- 操作系统生成的临时文件 ---
+# 尤其是 Mac 系统常见的隐藏文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- 本地开发环境与锁文件 ---
+.hugo_build.lock
+.env
+
+# --- 各种编辑器插件的缓存 ---
+.vscode/
+.idea/
+*.swp
